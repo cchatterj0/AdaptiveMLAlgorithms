@@ -1,6 +1,7 @@
 # AdaptiveMLAlgorithms
 
-The repository is organized with python notebook codes from each chapter starting with chapter 2. The files in each directory are:
+The repository is organized with python notebook codes from each chapter starting with chapter 2.
+The files in each directory are:
 
 Chapter 2 - Mean, Median, Normalized Mean of a vector sequence
 
