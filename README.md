@@ -34,3 +34,14 @@ MatlabSimulations/
  - Chapter7-GEVD/
  - Extra-SVD/
  - Extra-GSVD/
+
+ Data/
+ - All data obtained from https://sites.google.com/view/uspdsrepository
+ - elec.csv
+ - gassensor.csv
+ - INSECTS-abrupt_balanced_norm.csv
+ - INSECTS-gradual_balanced_norm.csv
+ - INSECTS-incremental_balanced_norm.csv
+ - INSECTS-incremental-abrupt_balanced_norm.csv
+ - INSECTS-incremental-reoccurring_balanced_norm.csv
+ - NOAA.csv
