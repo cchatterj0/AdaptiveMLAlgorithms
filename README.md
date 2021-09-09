@@ -36,7 +36,7 @@ MatlabSimulations/
  - Extra-GSVD/
 
  Data/
- Following data obtained from https://sites.google.com/view/uspdsrepository
+ - Following data obtained from https://sites.google.com/view/uspdsrepository
  - elec.csv
  - gassensor.csv
  - INSECTS-abrupt_balanced_norm.csv
@@ -45,5 +45,5 @@ MatlabSimulations/
  - INSECTS-incremental-abrupt_balanced_norm.csv
  - INSECTS-incremental-reoccurring_balanced_norm.csv
  - NOAA.csv
- Following data obtained from Yahoo Webscope S5 - A Labeled Anomaly Detection Dataset
+ - Following data obtained from Yahoo Webscope S5 - A Labeled Anomaly Detection Dataset
  - real_data.csv
