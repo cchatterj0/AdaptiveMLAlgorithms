@@ -4,6 +4,9 @@ The repository is organized with Python notebook codes from each chapter startin
 The files in each directory are:
 
 
+Chapter1-Introduction/
+ - autoassociation, Hetero-association, LDA, Hebbian, Whitening examples
+
 Chapter2-Cov-Mean-Median/
  - Mean, Median, Normalized Mean of a vector sequence
 
