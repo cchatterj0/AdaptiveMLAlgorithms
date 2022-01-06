@@ -1,6 +1,6 @@
 # AdaptiveMLAlgorithms
 
-The repository is organized with Python notebook codes from each chapter starting with chapter 2.
+The repository is organized with Python notebook codes from each chapter starting with Chapter 1.
 The files in each directory are:
 
 
