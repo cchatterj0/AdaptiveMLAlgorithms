@@ -5,6 +5,7 @@
 % December 2021
 % Speedup of the Adaptive EVD Algorithm 
 % Compare Our Steepest Descent, Yang's PASTd, Bannour/Sadjadi's RLS, Fu/Dowling's CGET1
+% Stationary Case
 
 function evdW;
 

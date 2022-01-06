@@ -111,20 +111,20 @@ for epoch = 1 : nEpochs
       
         for i = 1 : 11
             u(:,i) = w(:,i) / norm(w(:,i));
-      	    cos_t(i,cnt) = abs(u(:,i)'*V(:,1));
+            cos_t(i,cnt) = abs(u(:,i)'*V(:,1));
             ind(cnt) = cnt;
-		end
-	end
+        end
+    end
 end
 
 
 for i = 1 : 11
-	ww(:,i) = (w(:,i)'*w(:,i));
+    ww(:,i) = (w(:,i)'*w(:,i));
 end
 ww
 
 for i = 1 : 11
-	EstL(i) = (w(:,i)'*A*w(:,i)) / (w(:,i)'*w(:,i));
+    EstL(i) = (w(:,i)'*A*w(:,i)) / (w(:,i)'*w(:,i));
 end
 EstL
 

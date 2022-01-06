@@ -5,6 +5,7 @@
 % December 2021
 % Speedup of the Adaptive EVD Algorithm 
 % Newton's Method on the Unconstrained Objective Function
+% Stationary Case
 
 function evdZ;
 

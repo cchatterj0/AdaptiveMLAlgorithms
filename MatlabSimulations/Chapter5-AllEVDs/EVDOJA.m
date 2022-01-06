@@ -86,10 +86,10 @@ for epoch = 1 : nEpochs
       W3 = W3 + etat2*(A*W3*C - W3*C*(W3'*A*W3));
       
       for i = 1 : nEA      
-      	u1 = W1(:,i)/norm(W1(:,i));
-      	u2 = W2(:,i)/norm(W2(:,i));
-      	u3 = W3(:,i)/norm(W3(:,i));
-      	cos_t1(i,cnt) = abs(u1'*V(:,i));
+        u1 = W1(:,i)/norm(W1(:,i));
+        u2 = W2(:,i)/norm(W2(:,i));
+        u3 = W3(:,i)/norm(W3(:,i));
+        cos_t1(i,cnt) = abs(u1'*V(:,i));
         cos_t2(i,cnt) = abs(u2'*V(:,i));
         cos_t3(i,cnt) = abs(u3'*V(:,i));
       end

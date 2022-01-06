@@ -3,7 +3,7 @@
 % by
 % Chanchal Chatterjee
 % December 2021
-% Adaptive GEVD Algorithm 
+% Adaptive GEVD XU Algorithm 
 
 function SVDXU();
 

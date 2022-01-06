@@ -71,7 +71,6 @@ b2 = 1;
 
 for epoch = 1 : nEpochs
     for iter = 1 : nSamples
-        
         cnt = nSamples*(epoch-1) + iter;
       
         A = A + (1.0/cnt)*((x(:,iter) * x(:,iter)') - A);
@@ -100,10 +99,10 @@ for epoch = 1 : nEpochs
             
         for i = 1 : 7
             u(:,i) = w(:,i) / norm(w(:,i));
-      	    cos_t(i,cnt) = abs(u(:,i)'*V(:,1));
+            cos_t(i,cnt) = abs(u(:,i)'*V(:,1));
             ind(cnt) = cnt;
-		end
-	end
+        end
+    end
 end
 
 
@@ -114,7 +113,7 @@ end
 %ww
 
 for i = 1 : 7
-	AdaptD(i) = (w(:,i)'*A*w(:,i)) / (w(:,i)'*w(:,i));
+    AdaptD(i) = (w(:,i)'*A*w(:,i)) / (w(:,i)'*w(:,i));
 end
 AdaptD
 

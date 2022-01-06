@@ -5,6 +5,7 @@
 % December 2021
 % Speedup of the Adaptive EVD Algorithm 
 % Gradient Descent and Conjugate Direction Method on the Unconstrained Objective Function
+% Stationary Case
 
 function evdY;
 

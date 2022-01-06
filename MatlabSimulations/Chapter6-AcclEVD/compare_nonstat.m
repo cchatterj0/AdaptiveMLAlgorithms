@@ -223,11 +223,11 @@ for epoch = 1 : nEpochs
          end
          
          F = - 2*A + 2*A*w*w' + 2*w*w'*A + A*(w'*w) + (w'*A*w)*I  +  M;
-      	a0 = g'*g;
-      	a1 = - g'*F*g;
-      	a2 = 3*((w'*A*g)*(g'*g) + (g'*A*g)*(w'*g));
-      	a3 = - 2*(g'*A*g)*(g'*g);
-      	c = [a3 a2 a1 a0];
+         a0 = g'*g;
+         a1 = - g'*F*g;
+         a2 = 3*((w'*A*g)*(g'*g) + (g'*A*g)*(w'*g));
+         a3 = - 2*(g'*A*g)*(g'*g);
+         c  = [a3 a2 a1 a0];
          rts = roots(c);
          
          clear rs; clear r; clear J;
@@ -235,7 +235,7 @@ for epoch = 1 : nEpochs
          for k = 1 : 3
             if isreal(rts(k))
                rs(cnt) = rts(k);
-            	r = w - rts(k)*g;
+               r = w - rts(k)*g;
                J(cnt) = (-2*r'*A*r + r'*A*r*r'*r + r'*M*r);
                cnt = cnt + 1;
             end
@@ -244,7 +244,7 @@ for epoch = 1 : nEpochs
          alpha = rs(iyy);
          
          w = w - alpha * g;
-		  	W1(:,i) = w;
+            W1(:,i) = w;
         end
         
       % PASTd - Yang
@@ -261,7 +261,7 @@ for epoch = 1 : nEpochs
       for i = 1 : nEA
          h(i) = W3(:,i)' * xs;
          K(i) = (P(i)*h(i)) / (1 + h(i)^2 * P(i));
-			dd = zeros(nDim,1);
+            dd = zeros(nDim,1);
          for j = 1 : i-1
             dd = dd + h(j)*W3(:,j);
          end
@@ -307,10 +307,10 @@ for epoch = 1 : nEpochs
       
       
       for i = 1 : nEA      
-      	u1 = W1(:,i)/norm(W1(:,i));
-      	u2 = W2(:,i)/norm(W2(:,i));
-      	u3 = W3(:,i)/norm(W3(:,i));
-      	u4 = W4(:,i)/norm(W4(:,i));
+         u1 = W1(:,i)/norm(W1(:,i));
+         u2 = W2(:,i)/norm(W2(:,i));
+         u3 = W3(:,i)/norm(W3(:,i));
+         u4 = W4(:,i)/norm(W4(:,i));
          if iter <= nSamples1
             cos_t1(i,iter) = abs(u1'*VV1(:,i));
             cos_t2(i,iter) = abs(u2'*VV1(:,i));

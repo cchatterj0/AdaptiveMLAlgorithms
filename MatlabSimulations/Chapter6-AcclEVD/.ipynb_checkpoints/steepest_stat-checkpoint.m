@@ -5,6 +5,7 @@
 % December 2021
 % Speedup of the Adaptive EVD Algorithm 
 % Gradient Descent and Steepest Descent on the Unconstrained Objective Function
+% Stationary Case
 
 function evdX;
 

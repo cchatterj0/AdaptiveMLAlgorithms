@@ -3,7 +3,7 @@
 % by
 % Chanchal Chatterjee
 % December 2021
-% Adaptive SVD Algorithm 
+% Adaptive SVD AL1 Algorithm 
 
 function SVDAL1();
 

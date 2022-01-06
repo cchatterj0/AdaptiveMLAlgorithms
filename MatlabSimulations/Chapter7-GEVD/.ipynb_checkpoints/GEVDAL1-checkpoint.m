@@ -3,7 +3,7 @@
 % by
 % Chanchal Chatterjee
 % December 2021
-% OJA - Comparison of Adaptive GEVD Homogeneous, Deflated, Weighted
+% AL1 - Comparison of Adaptive GEVD Homogeneous, Deflated, Weighted
 
 function GEVDAL1;
 

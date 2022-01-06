@@ -4,7 +4,9 @@
 % Chanchal Chatterjee
 % December 2021
 % Speedup of the Adaptive EVD Algorithm 
-% Gradient Descent, Steepest Descent, Conjugate Direction, & Newton's Method on the Unconstrained Objective Function
+% Gradient Descent, Steepest Descent, Conjugate Direction, & Newton's Method on the 
+% Unconstrained Objective Function
+% Stationary Case
 
 function evdXYZ;
 

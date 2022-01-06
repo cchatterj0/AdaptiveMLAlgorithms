@@ -88,11 +88,11 @@ for epoch = 1 : nEpochs
         %W4 = W4 + etat2*(A*W4*C- W4*C*(W4'*A*W4)) * inv(W4'*A*W4);
       
         for i = 1 : nEA      
-      	    u1 = W1(:,i)/norm(W1(:,i));
-      	    u2 = W2(:,i)/norm(W2(:,i));
-      	    u3 = W3(:,i)/norm(W3(:,i));
-      	    u4 = W4(:,i)/norm(W4(:,i));
-      	    cos_t1(i,cnt) = abs(u1'*V(:,i));
+            u1 = W1(:,i)/norm(W1(:,i));
+            u2 = W2(:,i)/norm(W2(:,i));
+            u3 = W3(:,i)/norm(W3(:,i));
+            u4 = W4(:,i)/norm(W4(:,i));
+            cos_t1(i,cnt) = abs(u1'*V(:,i));
             cos_t2(i,cnt) = abs(u2'*V(:,i));
             cos_t3(i,cnt) = abs(u3'*V(:,i));
             %cos_t4(i,cnt) = abs(u4'*V(:,i));
