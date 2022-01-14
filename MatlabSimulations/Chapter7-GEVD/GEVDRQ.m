@@ -3,7 +3,7 @@
 % by
 % Chanchal Chatterjee
 % December 2021
-% IT - Comparison of Adaptive GEVD Homogeneous, Deflated, Weighted
+% RQ - Comparison of Adaptive GEVD Homogeneous, Deflated, Weighted
 
 function GEVDIT;
 

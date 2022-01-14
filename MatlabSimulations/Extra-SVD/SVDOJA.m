@@ -3,7 +3,7 @@
 % by
 % Chanchal Chatterjee
 % December 2021
-% Adaptive GEVD OJA Algorithm 
+% Adaptive SVD OJA Algorithm 
 
 function SVDOJA();
 
